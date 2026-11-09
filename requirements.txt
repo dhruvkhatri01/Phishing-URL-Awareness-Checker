@@ -1,0 +1,7 @@
+# Runtime: Python 3.10 or later. Install Python separately.
+# Explanation: pip treats lines beginning with # as comments.
+# This checker uses Python's standard library only:
+#   urllib.parse splits a URL into components without making a request.
+#   ipaddress checks whether a hostname is an IPv4 or IPv6 address.
+#   re checks text patterns used for schemes and hostnames.
+# There are no third-party packages to install. Run phishing_checker.py directly.
